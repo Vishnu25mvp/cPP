@@ -365,3 +365,66 @@ while (boolean_expersion)
         statements;
 }
 */
+
+//WAP to sum of number input at the keyboard
+// the input is terminated when input number is negative
+
+// #include "iostream"
+
+// int main(){
+//         int number = 0,loop_var;
+
+//         std::cout<<"Enter number to be added"<<std::endl;
+//         std::cin>>loop_var;
+//        while (loop_var >=0.0){
+//                 number = number+ loop_var;
+//                 std::cin>>loop_var;
+//        }
+//        std::cout<<number;
+//        return -1;
+// }
+
+
+//Increment and Decrement Operator 
+/*
+Increasing and decreasing the value of an integer variable is a commonly used method for
+counting the number of times a loop is executed. C++ provides a special operator ++ to
+increase the value of a variable by 1. The following are equivalent ways of incrementing a
+counter variable by 1.
+
+*/
+
+//syntax
+
+// a++ or a--
+
+
+// #include "iostream"
+// using namespace std;
+
+// int main(){
+//         int a,b,c;
+//         a=0;
+//         b=0;
+//         c=0;
+//         for(int i=5;i>=0;i--){
+//                 a++;
+//                 b++;
+//                 c++;
+
+//         }
+//         cout<<a<<b<<c;
+//         return 0;
+// }
+
+// #include "iostream"
+// using namespace std;
+// int main(){
+//         int a=0;
+//         while (a<=5){
+//                 cout<<a<<endl;
+//                 a++;
+//         }
+//         return -1;
+// }
+
