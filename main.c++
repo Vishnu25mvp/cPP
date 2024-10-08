@@ -304,4 +304,64 @@ following statement if the condition is true
 //         return 1;
 // }
 
+/*
+Switch multiple selection statement
+*/
+/*
+instead of using multiple if/else statements C++ also provides special 
+controll structure switch
 
+fot a varible x the switch(x) statement whether x is equal to the constant 
+values x1,x2,x3..etc varible does not have any of the value listed
+
+the break satement causes the program to procces to frist statement after the switch 
+structure . Note that the switch control structure us diffrenet to the other 
+in that braces are not required around the mutiple statement 
+*/
+
+//Wap for a simple calculator 
+
+// #include "iostream"
+
+// int main(){
+//         float a,b,result;
+//         char operation;
+//         std::cin>>a>>operation>>b;
+//         switch (operation)
+//         {
+//         case '+':
+//                 result = a+b;
+//                 break;
+//         case '-':
+//                 result = a-b;
+//                 break;
+//         case '*':
+//                 result = a*b;
+//                 break;
+//         case '/':
+//                 result = a/b;
+//                 break;
+        
+//         default:
+//                 std::cout<<"Invail value";
+//                 break;
+//         }
+//         std::cout<<result;
+// }
+
+
+
+//While repetition control statement
+/*
+While control statement allow the programmer to specify actions which are 
+to be repeated while some condition is true. In the while repetition structure
+*/
+
+//Syntax
+
+/*
+while (boolean_expersion)
+{
+        statements;
+}
+*/
