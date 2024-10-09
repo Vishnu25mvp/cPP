@@ -18,29 +18,29 @@ Notes:
 3. finally add all the value and divide with no of sem store them in a varible int or float then return it 
 */
 
-#include "iostream"
+// #include "iostream"
 
-int CGPA(){
-    int no_of_sem;
-    std::cout<<"Enter Number of Semster You have:";
-    std::cin>>no_of_sem;
-    float mark[no_of_sem],total=0,avg=0;
-    for(int i=1;i<=no_of_sem;i++){
-        std::cout<<"Enter your "<<i<<" precentage's :";
-        std::cin>>mark[i];
-        total += mark[i];
+// int CGPA(){
+//     int no_of_sem;
+//     std::cout<<"Enter Number of Semster You have:";
+//     std::cin>>no_of_sem;
+//     float mark[no_of_sem],total=0,avg=0;
+//     for(int i=1;i<=no_of_sem;i++){
+//         std::cout<<"Enter your "<<i<<" precentage's :";
+//         std::cin>>mark[i];
+//         total += mark[i];
 
-    }
-    for(int i=1;i<=no_of_sem;i++){
-        std::cout<<"Your "<<i<<" precentage :"<<mark[i]<<std::endl;
-    }
-    // std::cout<<"your Total precentage are:"<<total<<std::endl;
-    avg =(total/no_of_sem)/10;
-    std::cout<<"Your CGPA is "<<avg<<std::endl;
+//     }
+//     for(int i=1;i<=no_of_sem;i++){
+//         std::cout<<"Your "<<i<<" precentage :"<<mark[i]<<std::endl;
+//     }
+//     // std::cout<<"your Total precentage are:"<<total<<std::endl;
+//     avg =(total/no_of_sem)/10;
+//     std::cout<<"Your CGPA is "<<avg<<std::endl;
 
 
-}
+// }
 
-int main(){
-    CGPA();
-}
+// int main(){
+//     CGPA();
+// }

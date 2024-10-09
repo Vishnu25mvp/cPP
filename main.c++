@@ -428,3 +428,124 @@ counter variable by 1.
 //         return -1;
 // }
 
+// For repitation control statement 
+
+// In while loop we use looping varible but in for loop we don't need any looping varible 
+// because for have three stage one is varible initialiser then boolean condition finally it have increment oprator 
+
+//wap to print 10 number using for loop
+
+// #include "iostream"
+// using namespace std;
+
+// int main(){
+//         for(int i=1;i<=10;i++){
+//                 cout<<i<<endl;
+//         }
+//         return -1;
+// }
+
+//Functions
+
+/*
+Function is set of code to perfrom a task or operation 
+we can reuse the code whenever we want 
+it make the whole program into chunck's
+*/
+
+//syntax
+
+/*
+return_value_type function_name(prameter-list)
+{
+        decalaration of local varibles;
+        statements;
+        return return_values
+}
+*/
+
+//wap to find the factorial of given number
+
+// #include "iostream"
+// using namespace std;
+// int factorial(int factorial){
+//         int i, number =1;
+
+        
+//         for(i=1;i<=factorial;i++){
+//                 number *= i;
+
+
+//         }
+//         // cout<<number<<endl;
+//         return number;
+// }
+
+// int main(){
+//         int f;
+//         cout<<"Enter number to find factorial:"<<endl;
+//         cin>>f;
+//         int result = factorial(f);
+//         cout<<"Factorial of "<<f<<" is "<<result;
+//         return 1;
+// }
+
+
+// #include "iostream"
+// using namespace std;
+
+// int swap(int &a,int &b){
+
+//         int x;
+//         x = a;
+//         a = b;
+//         b = x; 
+//         return 1;
+// }
+
+// int main(){
+//         int a=9,b=10;
+//         swap(a,b);
+//         cout<<a<<"\n"<<b;
+//         return 1;
+// }
+
+/*
+instance of using call by value we can use call by reference that allow the user to not only to read 
+we can change the value of the varible 
+*/
+
+//Math library(cmath)
+
+
+/*
+Function Description
+sqrt(x) square root
+sin(x) trigonometric sine of x (in radians)
+cos(x) trigonometric cosine of x (in radians)
+tan(x) trigonometric tangent of x (in radians)
+exp(x) exponential function
+log(x) natural logarithm of x (base e)
+log10(x) logarithm of x to base 10
+fabs(x) absolute value (unsigned)
+ceil(x) rounds x up to nearest integer
+floor(x) rounds x down to nearest integer
+pow(x,y) x raised to power y
+*/
+
+
+
+#include "iostream"
+#include "cmath"
+using namespace std;
+int main(){
+        int a = 20;
+        float b =sqrt(a);
+        int p = pow(a,2);
+        float c =5.6;
+        c =ceil(c);
+
+        cout<<b<<"\n"<<p<<"\n"<<c<<endl;
+        return 0;
+
+}
