@@ -506,8 +506,7 @@ return_value_type function_name(prameter-list)
 // int main(){
 //         int a=9,b=10;
 //         swap(a,b);
-//         cout<<a<<"\n"<<b;
-//         return 1;
+//         cout<<a<<"\n"<<b;     return 1;
 // }
 
 /*
@@ -533,19 +532,185 @@ floor(x) rounds x down to nearest integer
 pow(x,y) x raised to power y
 */
 
+// pow, sqrt , ceil and floor
+
+// #include "iostream"
+// #include "cmath"
+// using namespace std;
+// int main(){
+//         int a = 20;
+//         float b =sqrt(a);
+//         int p = pow(a,2);
+//         float c =5.6;
+//         c =ceil(c);
+
+//         cout<<b<<"\n"<<p<<"\n"<<c<<endl;
+//         return 0;
+
+// }
+
+// fabs and expodentenal function
+
+// #include "iostream"
+// #include "cmath"
+// using namespace std;
+
+// int main(){
+//         int a = -10;
+//         cout<<"Fabs is use to find the abs value"<<fabs(a)<<endl;
+//         cout<<"expodoetenal's :"<<exp(a)<<endl;
+//         return -1;
+// }
+
+// #include <iostream>
+
+// struct 
+// {
+//         /* data */
+//         std::string name ; 
+//         int age ;
+// }Student;
 
 
-#include "iostream"
-#include "cmath"
-using namespace std;
-int main(){
-        int a = 20;
-        float b =sqrt(a);
-        int p = pow(a,2);
-        float c =5.6;
-        c =ceil(c);
+// int main(){
+//         Student.name = "v";
+//         Student.age = 25;  
+//         // std::cout<<Student<<std::endl;
+//         std::cout<<Student.name<<std::endl;
+//         std::cout<<Student.age<<std::endl;
+//         return 1; 
+// }
 
-        cout<<b<<"\n"<<p<<"\n"<<c<<endl;
-        return 0;
 
-}
+//
+
+//what is structure in c++?
+
+/*
+
+*/
+
+// #include <iostream>
+
+// struct  Student
+// {
+//         /* data */
+//         std::string name; 
+//         int age;
+// };
+
+
+// int main(){
+//         Student s1;
+//         s1.name ="vishnu";
+//         s1.age =5;
+//         // std::cout<<Student<<std::endl;
+//         std::cout<<s1.name<<std::endl;
+//         std::cout<<s1.age<<std::endl;
+//         return 1; 
+// }
+//    
+
+// Bank Program > show bal, with draw deposite and exit
+
+
+// #include "iostream"
+// #include "vector"
+
+// struct bank
+// {
+//         std::string name;
+//         float  Total_amt;
+//         std::vector<float> transaction;
+
+// };
+
+// float withdraw(float amt, float &Total_amt, std::vector<float>  &tran){
+//         if (amt>Total_amt){
+//                 std::cout<<"Invaild Fund"<<std::endl;
+//                 return 0.0;
+
+//         }
+//         else{
+//                 Total_amt = Total_amt -amt;
+//                 tran.push_back(-amt);
+//                 return 0.0l;
+//         }
+
+
+// }
+// float deposit(float amt, float &Total_amt, std::vector<float>  &tran){
+//         Total_amt = Total_amt +amt;
+//         tran.push_back(+amt);
+//         return 0.0l;
+
+
+// }
+
+// float transction(std::vector<float> tan){
+//         for(int i=0;i<=tan.size();i++){
+//                 std::cout<<tan[i]<<std::endl;
+//         }
+//         return 0.0;
+// }
+
+
+
+
+
+// int main(){
+//         bank b1;
+//         std::cout<<"Enter Your Name:"<<std::endl;
+//         std::cin>>b1.name;
+//         b1.Total_amt =0;
+//         b1.transaction.push_back(0);
+//         bool a=true;
+//         while (a)
+//         {
+                
+        
+        
+//         std::cout<<"Enter Your Option : "<<std::endl;
+//         std::cout<<"1. Balance"<<std::endl;
+//         std::cout<<"2. Deposit"<<std::endl;
+//         std::cout<<"3. Withdraw"<<std::endl;
+//         std::cout<<"4. Transcation"<<std::endl;
+//         std::cout<<"5. Exit"<<std::endl;
+//         int i;
+//         std::cin>>i;
+
+//         switch (i)
+//         {
+//         case 1:
+//                 std::cout<<b1.name<<"Total Balance"<<b1.Total_amt<<std::endl;
+//                 break;
+//         case 2:
+//                 float j;
+//                 std::cout<<"Enter Your Amount to be Deposit "<<b1.name<<std::endl;
+//                 std::cin>>j;
+//                 deposit(j,b1.Total_amt,b1.transaction);
+//                 std::cout<<"Your Amount Deposit Sucessfully :"<<j<<std::endl;
+//                 break;
+
+//         case 3:
+//                 std::cout<<"Enter Your Amount to be Withdraw "<<b1.name<<std::endl;
+//                 std::cin>>j;
+//                 withdraw(j,b1.Total_amt,b1.transaction);
+           
+//                 break;
+//         case 4:
+//                 std::cout<<b1.name<<"Total Transaction"<<std::endl;
+//                 transction(b1.transaction);
+//                 break;
+        
+//         case 5:
+//                 a = false;
+//                 break;
+        
+//         default:
+//                 std::cout<<"Enter Vaild Number"<<std::endl;
+//                 break;
+//         }
+//         }
+//         return 0;
+// }
