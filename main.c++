@@ -714,3 +714,59 @@ pow(x,y) x raised to power y
 //         }
 //         return 0;
 // }
+
+
+// #include "iostream"
+// using namespace std;
+
+// int main(){
+//         int size;
+//         cout<<"Enter the n number of array:"<<endl;
+//         cin>>size;
+//         int a[size];
+//         for (int i=0;i<=size;i++){
+//                 cout<<"Enter value for "<<i<<" element :"<<endl;
+//                 cin>>a[i];
+//         }
+//         for (int i =0;i<len(a);i++)
+// }
+
+// #include "iostream"
+// using namespace std;
+
+// int add(int a,int b){
+
+//         return a+b;
+// };
+
+// int main(){
+//         int a;
+//         a = add(2,2);
+//         cout<<a;
+//         return a;
+
+// }
+
+
+#include "iostream"
+
+float display(float x);
+
+int main(){
+        float a[9];
+        int i =0;
+        for(int i =0;i<=9;i++){
+                std::cout<<"Enter thr value of "<<i<<" element :"<<std::endl;
+                std::cin>> a[i];
+        }
+
+        display(a);
+        // display(a);
+        return 0;
+}
+
+float display(float &x){
+        for(int i =0;i<=9;i++){
+                std::cout<<x[i];
+        }
+}
